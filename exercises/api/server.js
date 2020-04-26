@@ -17,8 +17,6 @@ const findAsset = (name) => {
       else resolve(result);
     });
   });
-
-  return fs.readFileSync(assetPath, { encoding: "utf-8" }).toString();
 };
 
 const hostname = "127.0.0.1";
